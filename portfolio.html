@@ -3,77 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanskriti's Portfolio</title>
+    <title>Sanskriti | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="ex.css">
 </head>
 <body>
-    <header>
-        <h1>Sanskriti Bajpai</h1>
-        <p>Tech Enthusiast | AI & Data Science | Web Developer </p>
-    </header>
 
-    <section class="container">
-        <img src="image.png" alt="Profile Picture" class="profile-pic">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <img src="image.png" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="hero-right">
+                <p class="greeting">🚀 Welcome to My Space</p>
+                <h1>Hi, I'm <span>Sanskriti</span></h1>
+                <p class="typing-text">Tech Enthusiast | AI & Data Science | Web Developer</p>
+                <p>Turning ideas into reality with code and creativity.</p>
+
+                <div class="hero-buttons">
+                    <a href="Sanskriti resume.pdf" download class="btn btn-primary">📄 Resume</a>
+                    <a href="#contact" class="btn btn-secondary">🤝 Let's Connect</a>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://github.com/SanskritiBajpai24" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sanskriti-bajpai" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:bajpaisanskriti13@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="container">
         <h2>About Me</h2>
-        <p>I am a passionate tech enthusiast with expertise in AI, data science, and web development. Committed to continuous learning and staying updated with the latest advancements in AI, seeking opportunities to collaborate on impactful projects and contribute to the future of intelligent systems.</p>
+        <p>Tech enthusiast with a passion for AI, data science, and web development. I love building innovative solutions and contributing to tech communities.</p>
     </section>
 
-    <section class="container">
+    <!-- Education -->
+    <section id="education" class="container">
         <h2>Education</h2>
-        <p><strong>Invertis University</strong><br>Currently pursuing BCA with the Specialization in Arificial Intelligence.</p>
+        <p><strong>Invertis University</strong><br>Bachelor in Computer Application(AI)</p>
     </section>
 
-    <section class="container">
+    <!-- Projects -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Mindfulness Break Reminder</h3>
+                <p>An app to schedule mindful breaks, improving focus & productivity.</p>
+            </div>
+            <div class="project-card">
+                <h3>IoT Energy Monitor</h3>
+                <p>Built an IoT-based energy monitoring system using MQTT & ThingsBoard.</p>
+            </div>
+            <div class="project-card">
+                <h3>AI Chatbot</h3>
+                <p>Developed an AI-powered chatbot for customer support automation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container">
         <h2>Skills</h2>
         <div class="skills-list">
             <span>Python & Data Science</span>
-            <span>Machine Learning & AI</span>
-            <span>Web Development (HTML, CSS, JavaScript, Django)</span>
+            <span>Machine Learning</span>
+            <span>Web Development</span>
             <span>IoT & Cloud Computing</span>
         </div>
     </section>
 
-    <section class="container">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="project-card">
-                <h3>Mindfulness Break Reminder</h3>
-                <p>A web app that helps users take short, mindful breaks throughout the day to boost productivity.</p>
-            </div>
-            <div class="project-card">
-                <h3>IoT Smart Energy Monitoring</h3>
-                <p>Developed an IoT-based energy meter using MQTT and ThingsBoard for real-time monitoring.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="container">
+    <!-- Certifications -->
+    <section id="certifications" class="container">
         <h2>Certifications</h2>
-        <div class="certifications">
-            <p>✅ Python 101 Data Science - IBM</p>
-            <p>✅ AI Chatbot Workshop - OpenAI</p>
-            <p>✅ Web Development Bootcamp</p>
+        <div class="cert-list">
+            <p>✅ IBM Python 101 for Data Science</p>
+            <p>✅ IoT Project on Smart Energy Monitoring</p>
+            <p>✅ AI & ML Hackathon Participation</p>
+            <p>✅ Web Development Internship at Hunar Intern</p>
+            <p>✅ Volunteered in Job Fest</p>
         </div>
     </section>
 
-    <section class="container">
-        <h2>Hobbies & Interests</h2>
-        <div class="hobbies">
-            <span>🎨 Digital Art</span>
-            <span>📖 Reading about AI & Tech</span>
-            <span>🎵 Music & Lana Del Rey</span>
-            <span>🚀 Tech Events & Hackathons</span>
+    <!-- Contact -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-icons">
+            <a href="tel:7983863499"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:bajpaisanskriti13@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/sanskriti-bajpai" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>Contact Me</p>
-        <div class="social-icons">
-            <a href="tel:+1234567890"><i class="fa-solid fa-phone"></i></a>
-            <a href="mailto:your.email@example.com"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
+        <p>© 2025 Sanskriti | All Rights Reserved</p>
     </footer>
+
 </body>
 </html>
